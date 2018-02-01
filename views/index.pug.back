@@ -1,0 +1,8 @@
+extends layout
+
+block header
+  script(src='/javascripts/test1.js')
+
+block content
+  h1= title
+  p Welcome to #{title}
